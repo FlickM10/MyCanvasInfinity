@@ -1,0 +1,107 @@
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  min-width: 360px;
+  margin: 0;
+  padding: 16px;
+  background: linear-gradient(135deg, #fdfbfb, #f3f4f6);
+  color: #374151;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+  color: #111827;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+#analyzeAllBtn {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: #fff;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+#analyzeAllBtn:hover {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  transform: scale(1.05);
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+li {
+  background: #ffffff;
+  padding: 12px 16px;
+  border-radius: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  position: relative;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* Bubble tail */
+li::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 24px;
+  border-width: 8px 8px 0;
+  border-style: solid;
+  border-color: #ffffff transparent transparent transparent;
+  filter: drop-shadow(0 -1px 1px rgba(0,0,0,0.05));
+}
+
+/* Alternate side bubbles for chat effect */
+li:nth-child(even) {
+  margin-left: auto;
+  background: #e0f2fe;
+}
+
+li:nth-child(even)::after {
+  left: auto;
+  right: 24px;
+  border-color: #e0f2fe transparent transparent transparent;
+}
+
+li strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+li p {
+  margin: 0;
+  font-size: 13px;
+  color: #4b5563;
+}

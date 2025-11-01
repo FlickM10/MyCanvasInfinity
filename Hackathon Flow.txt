@@ -1,0 +1,27 @@
+Mini Pitch Deck – Actual Build Flow
+
+1. 	Problem
+College students juggle multiple assignments across courses. Canvas shows due dates but doesn’t help with prioritization or workload planning. The result is procrastination, missed deadlines, and stress.
+
+2. 	Solution
+We built the Canvas AI Assistant Extension, which transforms raw due dates into a ranked, actionable weekly plan. It provides smart priority ranking, sorting assignments by urgency and estimated effort, and adaptive reminders that feel like a study buddy rather than a nag.
+
+3. 	Key Features
+• 	Assignment extraction and sorting: pulls assignments directly from Canvas into the extension popup.
+• 	Priority scoring and color coding: caching and classification logic ranks tasks and visually highlights urgency.
+• 	Summarization and simplification: AI generates quick overviews and simplified prompts.
+• 	UI evolution: iterated from a minimal list to a bubbly, chat‑style dashboard with playful badges and pill‑shaped highlights.
+• 	Offline‑first design: client‑side logic ensures the extension works even without constant API calls.
+
+4. 	Demo Flow
+Step 1: Show the Canvas dashboard with upcoming assignments.
+Step 2: Open the extension popup to display the ranked, color‑coded weekly list.
+Step 3: Trigger a reminder notification that adapts to assignment type (for example, “Start your essay tonight—it’s heavier than your quiz”).
+Step 4: Show how a dense assignment description is rewritten into a clear, student‑friendly version.
+Step 5: Highlight the playful, chat‑style interface that makes planning feel less stressful.
+
+5. 	Why It Wins
+Purpose: Tackles a universal student pain point—planning and prioritization.
+Execution: We didn’t just theorize; we iterated through real debugging, caching, and UI polish until it worked smoothly.
+Scalability: Works for any Canvas user and can be adapted to other LMS platforms.
+Judging fit: Perfect for the “Most Helpful – Chrome Extension” prize because it is practical, polished, and demo‑ready.
