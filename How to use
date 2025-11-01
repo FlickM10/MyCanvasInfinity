@@ -1,0 +1,37 @@
+1 ) Clone or Download the Repo
+
+bash
+git clone https://github.com/FlickM10/MyCanvasInfinity.git
+Or download the ZIP from GitHub and extract it.
+
+2 ) Open Chrome Extensions Page
+
+In Chrome, go to: chrome://extensions/
+
+Toggle Developer mode (top right).
+
+3 ) Load the Extension
+
+Click “Load unpacked”.
+
+Select the project folder (the one containing manifest.json).
+
+4 ) Pin the Extension
+
+Click the puzzle‑piece icon in Chrome’s toolbar.
+
+Pin MyCanvasInfinity so it’s always visible.
+
+5 ) Use on Canvas
+
+Log into your Canvas LMS.
+
+Click the extension icon → the popup will open.
+
+Assignments will be extracted, analyzed, and displayed in the chat‑style UI with priority badges and summaries.
+
+6 ) Debugging / Logs
+
+Right‑click the popup → Inspect → check the Console for logs.
+
+This shows assignment extraction, AI calls, and caching in real time
